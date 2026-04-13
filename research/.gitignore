@@ -1,0 +1,15 @@
+# 仮想環境
+.venv/
+
+# 音声データ・大容量ファイル（必要なものは個別に git-lfs で管理する）
+data/*
+!data/.gitkeep
+
+# Jupyter チェックポイント
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python キャッシュ
+__pycache__/
+*.py[cod]
+*.pyo
