@@ -1,7 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:soundprogramming.net)",
+      "WebFetch(domain:www.synthmania.com)",
+      "WebFetch(domain:bobbyblues.recup.ch)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.synthark.org)",
+      "WebFetch(domain:www.buczynski.com)",
+      "WebFetch(domain:forum.vintagesynth.com)",
+      "WebFetch(domain:www.soundonsound.com)",
+      "WebFetch(domain:www.dulcimoo.com)",
+      "WebFetch(domain:www.donsolaris.com)",
+      "WebFetch(domain:www.manualslib.com)",
+      "WebFetch(domain:gearspace.com)",
+      "WebFetch(domain:sonicstate.com)"
     ]
   }
 }
