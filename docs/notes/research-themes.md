@@ -4,15 +4,20 @@
 
 ## 音の生成
 
-音合成の手法を幅広く扱う。
+音合成の手法を幅広く扱う。詳細な調査結果は以下のノートにまとめてある。
 
-| カテゴリ | テーマ例 |
-|---|---|
-| クラシカルな音源方式 | PSG音源、FM音源、PCM音源 |
-| アナログシミュレーション | サブトラクティブ合成（VCO/VCF/VCA）、ウェーブテーブル合成 |
-| 物理モデリング | Karplus-Strong法、有限差分法、WDF (Wave Digital Filter) |
-| スペクトル合成 | アディティブ合成、スペクトルモデリング |
-| 粒子ベース | グラニュラー・シンセシス |
+→ **[synthesis-overview.md](synthesis-overview.md)** — 全手法の概要・索引・比較表
+
+| カテゴリ | 手法 | 詳細ノート |
+|---|---|---|
+| クラシカルなデジタル音源 | PSG音源、FM音源（DX7/OPL）、PCM/サンプリング | [synthesis-classic.md](synthesis-classic.md) |
+| サブトラクティブ合成 | VCO（波形4種）、VCFフィルター各種、ADSR、LFO | [synthesis-subtractive.md](synthesis-subtractive.md) |
+| ウェーブテーブル合成 | テーブルスキャン・モーフィング（PPG Wave, Serum） | [synthesis-subtractive.md](synthesis-subtractive.md) |
+| アディティブ・変調系 | アディティブ、FM/PM、AM/RM、Phase Distortion、PWM、Vector | [synthesis-additive-modulation.md](synthesis-additive-modulation.md) |
+| 物理モデリング | Karplus-Strong、DWG、Modal合成、FDTD、WDF | [synthesis-physical-spectral.md](synthesis-physical-spectral.md) |
+| スペクトル合成 | 位相ボコーダー、SMS、PSOLA | [synthesis-physical-spectral.md](synthesis-physical-spectral.md) |
+| 粒子ベース | グラニュラー合成（同期・非同期） | [synthesis-physical-spectral.md](synthesis-physical-spectral.md) |
+| 高度・現代的手法 | Formant（FOF）、Concatenative、Feedback FM、DDSP、WaveNet | [synthesis-advanced.md](synthesis-advanced.md) |
 
 ## フィルターとエフェクト
 
