@@ -14,7 +14,12 @@
       "WebFetch(domain:www.donsolaris.com)",
       "WebFetch(domain:www.manualslib.com)",
       "WebFetch(domain:gearspace.com)",
-      "WebFetch(domain:sonicstate.com)"
+      "WebFetch(domain:sonicstate.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:cmajor.dev)",
+      "WebFetch(domain:forum.juce.com)",
+      "WebFetch(domain:docs.juce.com)"
     ]
   }
 }
